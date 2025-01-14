@@ -39,5 +39,13 @@ Desenvolvemos um sistema de monitoramento remoto integrado que permite o acompan
 2. Abra o projeto no IntelliJ IDEA.
 3. Compile e rode o projeto utilizando Java 8.
 
+## 🎥 Vídeo de Demonstração do Projeto
+Clique na imagem abaixo para assistir ao vídeo de demonstração do projeto no YouTube.
+
+[![Vídeo de Demonstração do Projeto](https://img.youtube.com/vi/hB6ITBIgqEg/0.jpg)](https://www.youtube.com/watch?v=hB6ITBIgqEg)
+
 ## 📱 Siga-nos nas Redes Sociais:
-<a href="https://github.com" target="_blank"><img src="https://img.shield
+<a href="https://github.com" target="_blank"><img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+<a href="https://www.linkedin.com" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://twitter.com" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a>
+<a href="https://www.youtube.com" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor
