@@ -84,9 +84,6 @@ Durante o processo de desenvolvimento, a equipe se concentrou em:
 1. **Inovação em Design de Embalagem**: Reformulação de embalagens para garantir acessibilidade e praticidade, com recursos como braille e design ergonômico.
 2. **Plataforma Interativa**: Desenvolvimento de uma plataforma digital que permite a personalização da experiência do consumidor, com a inclusão de recomendações personalizadas e funcionalidades que atendem às necessidades de consumidores com deficiência.
 
-Para acessar o código fonte do projeto, seja na versão inicial ou final, siga as instruções abaixo:
-
-
 
 ![Texto alternativo da imagem](https://github.com/user-attachments/assets/fda7c7a8-2624-463c-8c09-86b43ff7e494)
 
@@ -101,11 +98,6 @@ Clique na imagem abaixo para assistir ao vídeo de demonstração do projeto no 
 
 ## **A Curiosidade do Nome**
 O nome "Kallos kai Poikillia" é uma referência à antiga cultura grega, onde "kallos" significa **beleza**, e "poikillia" está relacionado a **variedade** ou **diversidade**. Juntas, essas palavras transmitem a ideia de que a verdadeira beleza está na diversidade, e que cada indivíduo pode ser belo sendo ele mesmo, no seu próprio momento e contexto. O conceito de **beleza** em grego koiné, simboliza uma harmonia entre o interno e o externo, refletindo que ser bonito é ser autêntico.
-
-## **Como o Projeto Foi Desenvolvido**
-Durante o processo de desenvolvimento, a equipe se concentrou em:
-1. **Inovação em Design de Embalagem**: Reformulação de embalagens para garantir acessibilidade e praticidade, com recursos como braille e design ergonômico.
-2. **Plataforma Interativa**: Desenvolvimento de uma plataforma digital que permite a personalização da experiência do consumidor, com a inclusão de recomendações personalizadas e funcionalidades que atendem às necessidades de consumidores com deficiência.
 
 
 
