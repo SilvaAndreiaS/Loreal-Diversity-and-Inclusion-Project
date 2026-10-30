@@ -1,52 +1,45 @@
+package com.loreal.brandstorm.kallos
+
+import java.util.Scanner
 
 fun main() {
+    val scanner = Scanner(System.`in`)
 
-    // TELA 1 — INICIAL
+    // TELA 1 — INICIAL E APRESENTAÇÃO
     println("==============================================")
-    println("       KALLOS KAI POIKILLIA")
-    println("          BRANDSTORM L'ORÉAL")
+    println("        KALLOS KAI POIKILLIA")
+    println("           BRANDSTORM L'ORÉAL")
     println("==============================================")
-
-    println("Bem-vindo à plataforma!")
-    println("Beleza, diversidade e inclusão.")
+    println("Bem-vindo à plataforma de Inclusão Digital!")
+    println("Beleza, diversidade e acessibilidade universal.")
+    println("A verdadeira beleza está na diversidade e na igualdade de acesso")
 
     // Menu principal
     while (true) {
-
         println("\n========== MENU PRINCIPAL ==========")
-        println("1 - Acessibilidade e Inclusão")
-        println("2 - Embalagens Ergonômicas e Braille")
-        println("3 - Tecnologia de Leitura por Voz")
-        println("4 - QR Code")
-        println("5 - Perfil e Preferências")
+        println("1 - Acessibilidade e Inclusão (LBI & Legislação)")
+        println("2 - Embalagens Ergonômicas e Braille (Tecnologia Tátil)")
+        println("3 - Tecnologia de Leitura por Voz (Sintetizadores & Áudio)")
+        println("4 - QR Code e Leitura de Produtos (Inclusão Digital)")
+        println("5 - Perfil e Preferências (Personalização & LIBRAS)")
+        println("6 - Sobre o Projeto & Impacto Social")
         println("0 - Sair")
 
         print("\nEscolha uma opção: ")
 
-        when (readLine()?.trim()) {
-
-            // TELA 2 — ACESSIBILIDADE
+        when (scanner.nextLine().trim()) {
             "1" -> telaAcessibilidade()
-
-            // TELA 3 — EMBALAGENS
             "2" -> telaEmbalagens()
-
-            // TELA 4 — LEITURA POR VOZ
             "3" -> telaLeituraVoz()
-
-            // TELA 5 — QR CODE
             "4" -> telaQRCode()
-
-            // TELA 6 — PERFIL
             "5" -> telaPerfil()
-
-            // ENCERRAR
+            "6" -> telaSobre()
             "0" -> {
-                println("Obrigada por conhecer nosso projeto!")
+                println("\nObrigado por conhecer o projeto Kallos kai Poikillia!")
+                println("A verdadeira beleza está na diversidade e na igualdade de acesso.")
                 break
             }
-
-            else -> println("Opção inválida. Tente novamente.")
+            else -> println("\nOpção inválida. Tente novamente.")
         }
     }
 }
@@ -54,43 +47,55 @@ fun main() {
 // TELA 2 — ACESSIBILIDADE E INCLUSÃO
 fun telaAcessibilidade() {
     println("\n===== ACESSIBILIDADE E INCLUSÃO =====")
-    println("Nosso objetivo é tornar a beleza acessível.")
-    println("- Experiência inclusiva")
-    println("- Navegação acessível")
-    println("- Informações claras")
-    println("- Design pensado para diferentes usuários")
+    println("A inclusão digital garante acesso equitativo a recursos tecnológicos.")
+    println("• Conformidade com a Lei Brasileira de Inclusão (LBI).")
+    println("• Navegação adaptada para deficiências visuais, auditivas, motoras e cognitivas.")
+    println("• Soluções projetadas para barreiras permanentes, temporárias e situacionais.")
+    println("• Interface com alto contraste, fontes ajustáveis e linguagem simples.")
 }
 
-// TELA 3 — EMBALAGENS
+// TELA 3 — EMBALAGENS ERGONÔMICAS
 fun telaEmbalagens() {
-    println("\n===== EMBALAGENS INCLUSIVAS =====")
-    println("- Embalagens ergonômicas")
-    println("- Identificação em Braille")
-    println("- Facilidade de identificação")
-    println("- Melhor experiência de utilização")
+    println("\n===== EMBALAGENS ERGONÔMICAS E BRAILLE =====")
+    println("Tecnologia assistiva tátil aplicada ao design de produtos de consumo massivo:")
+    println("• Identificação em Braille e marcações em alto-relevo.")
+    println("• Mecanismos de fácil abertura (Easy-Open) para pessoas com restrições motoras.")
+    println("• Texturas sensoriais para rápida diferenciação de linhas e fórmulas.")
+    println("• Design ergonômico que proporciona autonomia no manuseio diário.")
 }
 
 // TELA 4 — LEITURA POR VOZ
 fun telaLeituraVoz() {
-    println("\n===== LEITURA POR VOZ =====")
-    println("A proposta é oferecer informações")
-    println("dos produtos por meio de áudio.")
-    println("Recurso de tecnologia assistiva.")
+    println("\n===== TECNOLOGIA DE LEITURA POR VOZ =====")
+    println("Recurso de tecnologia assistiva focado em acessibilidade visual e leitura de tela:")
+    println("• Leitura automática dos rótulos e ingredientes via sintetizador de voz (TTS).")
+    println("• Audiodescrição detalhada do modo de uso, precauções e validade.")
+    println("• Suporte para leitores de tela e comandos orientados por voz.")
 }
 
-// TELA 5 — QR CODE
+// TELA 5 — QR CODE E LEITURA DE PRODUTOS
 fun telaQRCode() {
-    println("\n===== LEITOR DE QR CODE =====")
-    println("A proposta permite acessar informações")
-    println("do produto por meio de QR Codes.")
-    println("Integração com recursos acessíveis.")
+    println("\n===== QR CODE E LEITURA DE PRODUTOS =====")
+    println("Integração física e digital para eliminação de barreiras de informação:")
+    println("• Escaneamento rápido do QR Code tátil impresso na embalagem.")
+    println("• Acesso imediato a conteúdos acessíveis, incluindo tradução em LIBRAS.")
+    println("• Consulta em tempo real de informações sobre fórmulas e testes de cor.")
 }
 
-// TELA 6 — PERFIL
+// TELA 6 — PERFIL E PREFERÊNCIAS
 fun telaPerfil() {
-    println("\n===== PERFIL E PREFERÊNCIAS =====")
-    println("Personalize sua experiência.")
-    println("- Preferências de acessibilidade")
-    println("- Recursos de leitura")
-    println("- Configurações de utilização")
+    println("\n===== PERFIL E PREFERÊNCIAS DE ACESSIBILIDADE =====")
+    println("Personalize sua experiência na plataforma:")
+    println("• Definição de perfis de visualização (Baixa Visão, Daltonismo, Modo Noturno).")
+    println("• Configurações salvas de velocidade de leitura por voz.")
+    println("• Canal direto de feedback contínuo para melhoria contínua dos produtos.")
+}
+
+// TELA SOBRE — L'ORÉAL BRANDSTORM
+fun telaSobre() {
+    println("\n===== SOBRE O PROJETO KALLOS KAI POIKILLIA =====")
+    println("Iniciativa para o L'Oréal Brandstorm 2024.")
+    println("• Conceito Grego: Kallos (Beleza) + Poikillia (Diversidade).")
+    println("• Missão: Humanizar o mercado de consumo através da tecnologia inclusiva,")
+    println("  promovendo empoderamento, igualdade de oportunidades e representatividade.")
 }
